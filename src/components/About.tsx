@@ -3,7 +3,7 @@ import { Monitor, Smartphone, Award, Code, Briefcase, GraduationCap } from 'luci
 
 const About: React.FC = () => {
   const stats = [
-    { icon: <Briefcase size={24} />, value: '8+', label: 'Years Experience' },
+    { icon: <Briefcase size={24} />, value: '7', label: 'Years Experience' },
     { icon: <Code size={24} />, value: '60+', label: 'Projects Completed' },
     { icon: <Monitor size={24} />, value: '15+', label: 'Web Technologies' },
     { icon: <Smartphone size={24} />, value: '5+', label: 'Mobile Frameworks' }
