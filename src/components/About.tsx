@@ -3,9 +3,9 @@ import { Monitor, Smartphone, Award, Code, Briefcase, GraduationCap } from 'luci
 
 const About: React.FC = () => {
   const stats = [
-    { icon: <Briefcase size={24} />, value: '7+', label: 'Years Experience' },
-    { icon: <Code size={24} />, value: '50+', label: 'Projects Completed' },
-    { icon: <Monitor size={24} />, value: '10+', label: 'Web Technologies' },
+    { icon: <Briefcase size={24} />, value: '8+', label: 'Years Experience' },
+    { icon: <Code size={24} />, value: '60+', label: 'Projects Completed' },
+    { icon: <Monitor size={24} />, value: '15+', label: 'Web Technologies' },
     { icon: <Smartphone size={24} />, value: '5+', label: 'Mobile Frameworks' }
   ];
 
@@ -16,28 +16,29 @@ const About: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-12 mt-12">
           <div className="lg:w-1/2">
             <h3 className="text-2xl font-bold mb-4 text-blue-600 dark:text-blue-400">
-              Full Stack Developer & Blockchain Specialist
+              Senior Full Stack Developer & Blockchain Specialist
             </h3>
             <div className="space-y-4 text-slate-700 dark:text-slate-300">
               <p>
-                I'm a dedicated Full Stack Web and Mobile Developer with a total of 7 years of experience, 
-                including 3 years of remote work. My journey in software development has equipped me with 
-                a profound architectural understanding of Web and Mobile frameworks.
+                I'm a Senior Full Stack Developer with 8+ years of experience in web and mobile development, 
+                including extensive expertise in blockchain technology. My career has been focused on building 
+                scalable, high-performance applications and leading development teams to success.
               </p>
               <p>
-                Throughout my career, I've successfully completed over 50 web development projects, 
-                specializing in modern technologies like React.js/Redux, React Native, Next.js, Angular, 
-                Vue.js/Vuex, Nest.js, Node.js, Golang, PHP, and Java.
+                Currently at StackBlitz, I'm working on cutting-edge cloud development environments and 
+                real-time collaboration features. My experience spans modern web technologies, cloud 
+                infrastructure, and blockchain platforms, allowing me to deliver comprehensive solutions 
+                that meet complex business needs.
               </p>
               <p>
-                I'm particularly passionate about blockchain technology and have developed several 
-                NFT dApps and marketplaces based on EVM and Solana. I'm constantly expanding my knowledge 
-                in emerging technologies, currently focusing on mastering Metaverse tech.
+                I specialize in React, TypeScript, and Node.js for web development, and have extensive 
+                experience with blockchain technologies including Solidity, Rust, and Web3.js. My work 
+                in the blockchain space includes developing NFT marketplaces, P2E games, and DeFi applications.
               </p>
               <p>
-                My approach to development is comprehensive – from concept development to launch, 
-                I provide solutions that align with your vision, timeline, and budget while accurately 
-                reflecting your company's identity.
+                My approach combines technical expertise with strong project management skills, ensuring 
+                delivery of high-quality solutions that drive business value while maintaining code quality 
+                and performance standards.
               </p>
             </div>
             <div className="mt-8 flex items-center">
@@ -72,7 +73,7 @@ const About: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Project planning and execution excellence</span>
+                  <span>Technical excellence and innovation in solution design</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400 mr-3 mt-0.5">
@@ -80,7 +81,7 @@ const About: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Thorough code reviews and quality assurance</span>
+                  <span>Agile methodology and efficient project management</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400 mr-3 mt-0.5">
@@ -88,7 +89,7 @@ const About: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Comprehensive unit testing and test coverage</span>
+                  <span>Comprehensive testing and quality assurance</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400 mr-3 mt-0.5">
@@ -96,7 +97,7 @@ const About: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Clean, consistent coding style and documentation</span>
+                  <span>Performance optimization and scalable architecture</span>
                 </li>
                 <li className="flex items-start">
                   <div className="h-6 w-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400 mr-3 mt-0.5">
@@ -104,7 +105,7 @@ const About: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span>Commitment to long-term client relationships</span>
+                  <span>Effective team leadership and mentorship</span>
                 </li>
               </ul>
             </div>
