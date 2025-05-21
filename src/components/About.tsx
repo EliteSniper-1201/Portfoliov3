@@ -25,7 +25,7 @@ const About: React.FC = () => {
                 scalable, high-performance applications and leading development teams to success.
               </p>
               <p>
-                Currently at StackBlitz, I'm working on cutting-edge cloud development environments and 
+                Currently at Kevesta, I'm working on cutting-edge cloud development environments and 
                 real-time collaboration features. My experience spans modern web technologies, cloud 
                 infrastructure, and blockchain platforms, allowing me to deliver comprehensive solutions 
                 that meet complex business needs.

@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
       'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'PHP', 'C/C++', 'C#', 'Python', 'Java', 'Golang', 'Rust'
     ],
     frontend: [
-      'React.js', 'Redux', 'Redux-saga', 'Angular', 'Vue.js', 'Vuex', 'Next.js', 'Bootstrap', 'Tailwind CSS', 'SASS'
+      'React.js', 'Redux', 'Redux-saga', 'Angular', 'Vue.js', 'Vuex', 'Next.js', 'React Native', 'Flutter', 'Bootstrap', 'Tailwind CSS', 'SASS'
     ],
     backend: [
       'Node.js', 'Express.js', 'Nest.js', 'Golang', 'Laravel', 'Django', 'Strapi', 'GraphQL', 'REST API', 'Microservices'
@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
       'Solidity', 'Web3.js', 'Ethers.js', 'Rust', 'Solana Program', 'Anchor', 'Metaplex', 'SPL', 'Candy Machine', 'XRP'
     ],
     tools: [
-      'Git', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'Heroku', 'CI/CD', 'Jenkins', 'Jira', 'Figma'
+      'Git', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'Heroku', 'CI/CD', 'Jenkins', 'Jira', 'Figma', 'Fastlane', 'Bitrise'
     ]
   };
   
@@ -84,8 +84,8 @@ const Skills: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Frontend Development</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-4">
-              Creating responsive, modern interfaces with React, Vue, and Angular. 
-              Specializing in state management and performant UIs.
+              Expert in creating responsive, modern interfaces with React, Vue, and Angular. 
+              Specializing in state management and high-performance UIs.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="skill-badge">React.js</span>
@@ -97,11 +97,29 @@ const Skills: React.FC = () => {
           
           <div className="card p-6">
             <div className="w-14 h-14 rounded-lg bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4">
+              <Smartphone size={28} />
+            </div>
+            <h3 className="text-xl font-bold mb-3">Mobile Development</h3>
+            <p className="text-slate-700 dark:text-slate-300 mb-4">
+              Leading mobile app development with React Native and Flutter, creating 
+              seamless cross-platform experiences with native performance.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-auto">
+              <span className="skill-badge">React Native</span>
+              <span className="skill-badge">Flutter</span>
+              <span className="skill-badge">iOS</span>
+              <span className="skill-badge">Android</span>
+            </div>
+          </div>
+          
+          <div className="card p-6">
+            <div className="w-14 h-14 rounded-lg bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4">
               <Server size={28} />
             </div>
             <h3 className="text-xl font-bold mb-3">Backend Development</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-4">
-              Building robust server-side applications with Node.js, Golang, and microservices architecture.
+              Building scalable server-side applications with Node.js, Golang, and 
+              modern microservices architecture.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="skill-badge">Node.js</span>
@@ -113,27 +131,12 @@ const Skills: React.FC = () => {
           
           <div className="card p-6">
             <div className="w-14 h-14 rounded-lg bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4">
-              <Smartphone size={28} />
-            </div>
-            <h3 className="text-xl font-bold mb-3">Mobile Development</h3>
-            <p className="text-slate-700 dark:text-slate-300 mb-4">
-              Developing cross-platform mobile applications with React Native and Flutter.
-            </p>
-            <div className="flex flex-wrap gap-2 mt-auto">
-              <span className="skill-badge">React Native</span>
-              <span className="skill-badge">Flutter</span>
-              <span className="skill-badge">Swift</span>
-              <span className="skill-badge">Kotlin</span>
-            </div>
-          </div>
-          
-          <div className="card p-6">
-            <div className="w-14 h-14 rounded-lg bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4">
               <Lock size={28} />
             </div>
             <h3 className="text-xl font-bold mb-3">Blockchain Development</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-4">
-              Creating decentralized applications and smart contracts for EVM-compatible chains and Solana.
+              Expert in blockchain development, creating smart contracts and DApps 
+              for various chains including Ethereum and Solana.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="skill-badge">Solidity</span>
@@ -149,12 +152,13 @@ const Skills: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Database Management</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-4">
-              Designing and optimizing database solutions with SQL and NoSQL databases.
+              Designing and optimizing database solutions with SQL and NoSQL databases,
+              ensuring high performance and scalability.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
-              <span className="skill-badge">MongoDB</span>
               <span className="skill-badge">PostgreSQL</span>
-              <span className="skill-badge">MySQL</span>
+              <span className="skill-badge">MongoDB</span>
+              <span className="skill-badge">Redis</span>
               <span className="skill-badge">Firebase</span>
             </div>
           </div>
@@ -163,9 +167,10 @@ const Skills: React.FC = () => {
             <div className="w-14 h-14 rounded-lg bg-blue-100 dark:bg-blue-900/40 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4">
               <Globe size={28} />
             </div>
-            <h3 className="text-xl font-bold mb-3">DevOps & Deployment</h3>
+            <h3 className="text-xl font-bold mb-3">DevOps & Cloud</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-4">
-              Implementing CI/CD pipelines and containerization for seamless application deployment.
+              Implementing robust CI/CD pipelines and cloud infrastructure for 
+              seamless deployment and scaling.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="skill-badge">Docker</span>

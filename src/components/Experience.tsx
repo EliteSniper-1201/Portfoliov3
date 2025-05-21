@@ -25,36 +25,37 @@ const Experience: React.FC = () => {
   
   const jobs: Job[] = [
     {
-      id: 'stackblitz',
-      company: 'StackBlitz',
-      position: 'Senior Full Stack Developer',
-      period: 'Jan 2024 - Present',
+      id: 'kevesta',
+      company: 'Kevesta',
+      position: 'Mobile Development Lead',
+      period: 'Mar 2025 - Present',
       location: 'Remote',
-      description: 'Leading development of cloud-based development environments and real-time collaboration features.',
+      description: 'Leading mobile platform development for flight and hotel booking, ensuring seamless user experience across iOS and Android.',
       responsibilities: [
-        'Architected and implemented real-time collaboration features using WebRTC and WebSocket technologies',
-        'Developed microservices architecture for scalable cloud development environments',
-        'Led team of 5 developers in implementing new features and maintaining existing codebase',
-        'Improved system performance by 40% through optimization of resource allocation and caching strategies',
-        'Implemented automated testing and CI/CD pipelines reducing deployment time by 60%'
+        'Led end-to-end architecture, development, and deployment of Kevesta\'s mobile platform',
+        'Built scalable, high-performance mobile applications using React Native',
+        'Reduced time-to-market by 30% through effective collaboration with product and design teams',
+        'Implemented real-time features for dynamic pricing and booking confirmations',
+        'Established modular component architecture for future scalability',
+        'Achieved 40% reduction in release cycle times through CI/CD optimization'
       ],
-      technologies: ['React', 'TypeScript', 'Node.js', 'WebRTC', 'Docker', 'Kubernetes', 'Redis', 'PostgreSQL']
+      technologies: ['React Native', 'TypeScript', 'Redux', 'Node.js', 'RESTful APIs', 'Firebase', 'Fastlane', 'Bitrise']
     },
     {
       id: 'rotationsplus',
       company: 'RotationsPlus',
       position: 'Senior Full Stack Developer',
-      period: 'Nov 2022 – Dec 2023',
+      period: 'Nov 2022 – Nov 2024',
       location: 'Remote',
-      description: 'Led development of high-performance customer-facing web applications using modern technologies.',
+      description: 'Developed high-performance customer-facing web applications using modern technologies.',
       responsibilities: [
-        'Developed high performance customer facing web application using ReactJS, Redux-saga, and TypeScript',
-        'Implemented real-time data synchronization reducing data inconsistencies by 95%',
-        'Developed custom API layer with JWT token management and custom header interceptors',
-        'Orchestrated AWS infrastructure deployment and management',
-        'Containerized applications using Docker and implemented CI/CD pipelines'
+        'Developed high performance customer facing web application using ReactJS and Redux-saga',
+        'Maintained high-level expertise in React state management strategies',
+        'Developed custom API layer with JWT token management',
+        'Integrated AWS services for server-side and client-side code',
+        'Created Docker containers and implemented RESTful Web Services'
       ],
-      technologies: ['React', 'Redux-saga', 'TypeScript', 'AWS', 'Docker', 'Strapi', 'PostgreSQL']
+      technologies: ['React', 'Redux-saga', 'React Hooks', 'JavaScript', 'AWS', 'Docker', 'Strapi']
     },
     {
       id: 'metaverseme',
@@ -62,31 +63,45 @@ const Experience: React.FC = () => {
       position: 'Senior Blockchain Developer & Advisor',
       period: 'Feb 2022 – Oct 2022',
       location: 'Remote',
-      description: 'Built NFT marketplace for MetaverseMe game avatars, implementing both crypto and fiat payment methods.',
+      description: 'Built NFT marketplace for game avatars with crypto and fiat payment integration.',
       responsibilities: [
-        'Architected and developed NFT marketplace supporting multiple payment methods',
-        'Implemented smart contracts on multiple chains (Ethereum, Polygon, BSC, Avalanche)',
-        'Developed Solana programs for high-performance NFT minting and trading',
-        'Integrated fiat payment gateway reducing barrier to entry for non-crypto users',
-        'Implemented automated testing suite for smart contracts achieving 95% coverage'
+        'Built NFT marketplace for creating and minting game avatar collections',
+        'Implemented dual payment methods supporting both crypto and fiat',
+        'Developed smart contracts for multiple chains (EVM and Solana)',
+        'Optimized gas fees and transaction processing'
       ],
-      technologies: ['Solidity', 'Rust', 'Web3.js', 'React', 'Node.js', 'Solana', 'PostgreSQL']
+      technologies: ['Solidity', 'Web3.js', 'React', 'Node.js', 'Solana', 'Smart Contracts']
     },
     {
       id: 'blockletegames',
       company: 'BlockleteGames',
       position: 'Senior Blockchain Developer & Advisor',
       period: 'Mar 2020 – Dec 2021',
-      location: 'Remote',
-      description: 'Led development of P2E golf game and migration from Ethereum to Flow network.',
+      location: 'Part-time / Remote',
+      description: 'Created smart contracts for P2E golf game and migrated from Ethereum to Flow network.',
       responsibilities: [
-        'Architected and implemented smart contracts for P2E golf game',
-        'Led migration from Ethereum to Flow network improving transaction speed by 200%',
-        'Developed comprehensive testing framework for smart contracts',
-        'Implemented automated reward distribution system',
-        'Optimized gas usage reducing transaction costs by 45%'
+        'Developed smart contracts for P2E golf game',
+        'Implemented business logic using Node.js and Solidity',
+        'Led migration from Ethereum to Flow network',
+        'Created comprehensive test cases for workflow validation'
       ],
-      technologies: ['Solidity', 'Cadence', 'Flow Network', 'Node.js', 'React', 'PostgreSQL']
+      technologies: ['Blockchain', 'Solidity', 'Node.js', 'Flow Network', 'Smart Contracts', 'Testing']
+    },
+    {
+      id: 'clarusrd',
+      company: 'Clarus R+D',
+      position: 'Full-Stack Engineer',
+      period: 'Apr 2020 – Oct 2021',
+      location: 'Contract / Remote',
+      description: 'Built various web projects including entertainment services and employee systems.',
+      responsibilities: [
+        'Developed TypeScript and Nest.js based entertainment service',
+        'Created WebAR project using Next.js and Feather.js',
+        'Built employee cooperation system using Ruby on Rails',
+        'Implemented Shopify-based e-commerce systems',
+        'Developed job hiring platform using Angular and Golang'
+      ],
+      technologies: ['TypeScript', 'Nest.js', 'Next.js', 'Ruby on Rails', 'Angular', 'Golang', 'PostgreSQL']
     }
   ];
 
