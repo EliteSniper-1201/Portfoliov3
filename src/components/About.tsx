@@ -20,7 +20,7 @@ const About: React.FC = () => {
             </h3>
             <div className="space-y-4 text-slate-700 dark:text-slate-300">
               <p>
-                I'm a Senior Full Stack Developer with 8+ years of experience in web and mobile development, 
+                I'm a Senior Full Stack Developer with 7 years of experience in web and mobile development, 
                 including extensive expertise in blockchain technology. My career has been focused on building 
                 scalable, high-performance applications and leading development teams to success.
               </p>
