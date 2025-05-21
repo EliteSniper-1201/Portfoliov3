@@ -78,13 +78,13 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-r from-blue-500 to-orange-500 absolute blur-2xl opacity-20 animate-pulse"></div>
               <div className="relative z-10 floating-animation">
-                <div className="w-64 h-64 sm:w-80 sm:h-80 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 rounded-full flex items-center justify-center">
-                  <div className="w-60 h-60 sm:w-76 sm:h-76 bg-slate-50 dark:bg-slate-900 rounded-full flex items-center justify-center overflow-hidden">
-                    <div className="relative w-56 h-56 sm:w-72 sm:h-72 rounded-full overflow-hidden bg-gradient-to-r from-blue-500 to-blue-700">
-                      <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
-                        JM
-                      </div>
-                    </div>
+                <div className="w-64 h-64 sm:w-80 sm:h-80 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 rounded-full flex items-center justify-center p-1">
+                  <div className="w-full h-full bg-slate-50 dark:bg-slate-900 rounded-full flex items-center justify-center overflow-hidden">
+                    <img 
+                      src="/profile.jpg" 
+                      alt="Juri Miyazawa"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>
                 </div>
               </div>
