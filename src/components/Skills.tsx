@@ -27,10 +27,10 @@ const Skills: React.FC = () => {
       'MongoDB', 'PostgreSQL', 'MySQL', 'SQLite', 'Firebase', 'Redis'
     ],
     mobile: [
-      'React Native', 'Flutter', 'Objective-C', 'Kotlin', 'Swift'
+      'React Native', 'Flutter', 'Objective-C', 'Kotlin', 'Swift', 'Fastlane', 'Bitrise'
     ],
     blockchain: [
-      'Solidity', 'Web3.js', 'Ethers.js', 'Rust', 'Solana Program', 'Anchor', 'Metaplex', 'SPL', 'Candy Machine', 'XRP'
+      'Solidity', 'Web3.js', 'Ethers.js', 'Rust', 'Solana Program', 'Anchor', 'Metaplex', 'SPL', 'Candy Machine', 'XRP', 'Hyperledger Fabric'
     ],
     tools: [
       'Git', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'Heroku', 'CI/CD', 'Jenkins', 'Jira', 'Figma', 'Fastlane', 'Bitrise'
@@ -136,13 +136,13 @@ const Skills: React.FC = () => {
             <h3 className="text-xl font-bold mb-3">Blockchain Development</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-4">
               Expert in blockchain development, creating smart contracts and DApps 
-              for various chains including Ethereum and Solana.
+              for various chains including Ethereum, Solana, and Hyperledger.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="skill-badge">Solidity</span>
               <span className="skill-badge">Web3.js</span>
               <span className="skill-badge">Solana</span>
-              <span className="skill-badge">Rust</span>
+              <span className="skill-badge">Hyperledger</span>
             </div>
           </div>
           

@@ -102,6 +102,37 @@ const Experience: React.FC = () => {
         'Developed job hiring platform using Angular and Golang'
       ],
       technologies: ['TypeScript', 'Nest.js', 'Next.js', 'Ruby on Rails', 'Angular', 'Golang', 'PostgreSQL']
+    },
+    {
+      id: 'greenbay',
+      company: 'Greenbay Payment, LTD',
+      position: 'Full-Stack Engineer',
+      period: 'Jan 2019 – Apr 2020',
+      location: 'Remote',
+      description: 'Developed blockchain-based payment and money transfer service.',
+      responsibilities: [
+        'Built payment service using IBM Hyperledger Fabric',
+        'Implemented e-wallet API service using Node.js and Express.js',
+        'Conducted security analysis using Fortify and fixed vulnerabilities',
+        'Implemented comprehensive testing using Appium, Selenium, and JMeter',
+        'Managed deployments using Docker and Jenkins CI/CD pipeline'
+      ],
+      technologies: ['Hyperledger Fabric', 'Node.js', 'Express.js', 'Docker', 'Jenkins', 'IBM Cloud']
+    },
+    {
+      id: 'vacation-rentals',
+      company: 'Vacation Rentals Inc',
+      position: 'Full-Stack Engineer',
+      period: 'March 2019 – Nov 2019',
+      location: 'Remote',
+      description: 'Developed multiple web applications including hotel booking and marketplace platforms.',
+      responsibilities: [
+        'Implemented 20+ websites using various frameworks',
+        'Built hotel booking and multi-vendor marketplace systems',
+        'Worked on computer vision projects including image enhancement',
+        'Collaborated using Git and project management tools'
+      ],
+      technologies: ['React.js', 'Angular', 'Vue.js', 'PHP', 'Python', 'Computer Vision']
     }
   ];
 
